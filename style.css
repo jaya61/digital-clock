@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #F08787, #FFC7A7);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+#clock {
+  font-size: 4em;
+  font-weight: bold;
+  color: #fff;
+  background:#DC143C;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;  /* center buttons horizontally */
+  gap: 15px;                /* spacing between buttons */
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#startBtn {
+  background: #8FA31E;
+  color: white;
+}
+
+#stopBtn {
+  background: #F75270;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
